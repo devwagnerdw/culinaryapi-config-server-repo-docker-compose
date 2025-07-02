@@ -7,7 +7,7 @@ spring:
   application:
     name: Culinarypi-Menu-Service
   datasource:
-    url:  jdbc:postgresql://localhost:5432/Culinaryapi-MenuService
+    url:  jdbc:postgresql://postgres-db-menuservice:5432/Culinaryapi-MenuService
     username: postgres
     password: 123
   jpa:
