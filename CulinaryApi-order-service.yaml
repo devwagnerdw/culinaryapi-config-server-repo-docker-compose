@@ -7,7 +7,7 @@ spring:
   application:
     name: CulinaryApi-Order-Service
   datasource:
-    url: jdbc:postgresql://localhost:5432/Culinaryapi-OrderService
+    url: jdbc:postgresql://postgres-db-order-service:5432/Culinary-order-service
     username: postgres
     password: 123
   jpa:
