@@ -23,7 +23,7 @@ spring:
   rabbitmq:
     addresses: amqps://gxfhiqck:3sivG1zlLvv3W7SWQcK14y010juFScxm@leopard.lmq.cloudamqp.com/gxfhiqck
 
-Culinary:
+culinary:
   broker:
     exchange:
       userEventExchange: Culinary.userEvent

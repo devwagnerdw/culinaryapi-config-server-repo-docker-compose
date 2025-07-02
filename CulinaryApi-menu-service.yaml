@@ -5,7 +5,7 @@ server:
 
 spring:
   application:
-    name: Culinarypi-Menu-Service
+    name: CulinaryApi-Menu-Service
   datasource:
     url:  jdbc:postgresql://postgres-db-menuservice:5432/Culinaryapi-MenuService
     username: postgres
