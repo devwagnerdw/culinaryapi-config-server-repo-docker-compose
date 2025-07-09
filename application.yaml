@@ -1,0 +1,9 @@
+culinary:
+  serviceRegistry:
+    username: serviceregistry
+    password: 'culinary123sr'
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: 'http://${culinary.serviceRegistry.username}:${culinary.serviceRegistry.password}@service-registry:8761/eureka'
